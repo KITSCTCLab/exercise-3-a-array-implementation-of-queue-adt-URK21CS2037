@@ -1,5 +1,5 @@
 class Solution:
-    def _init_(self, size):
+    def __init__(self, size):
         self.stack = [None]*size
         self.queue = [None]*size
         self.size = size
